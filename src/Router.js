@@ -6,6 +6,7 @@ import CicloVida from './components/CicloVida.vue';
 import DirectivasComponent from './components/DirectivasComponent.vue';
 import PropiedadConmutada from './components/PropiedadConmutada.vue';
 import ParImparComponent from './components/ParImparComponent.vue';
+import MetodosFilters from './components/MetodosFilters.vue';
 
 //
 const myRoutes = [
@@ -29,6 +30,9 @@ const myRoutes = [
     },
     {
         path: "/parimpar", component: ParImparComponent
+    },
+    {
+        path: "/metodosfilter", component: MetodosFilters
     }
 ]
 

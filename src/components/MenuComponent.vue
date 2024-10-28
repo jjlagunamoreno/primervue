@@ -20,7 +20,10 @@
         <router-link to="/propiedadconmutada">PropiedadConmutada - </router-link>
       </li>
       <li>
-        <router-link to="/parimpar">Par e Impar</router-link>
+        <router-link to="/parimpar">Par e Impar - </router-link>
+      </li>
+      <li>
+        <router-link to="/metodosfilter">Metodos Filter</router-link>
       </li>
     </ul>
   </div>
