@@ -1,7 +1,9 @@
 <template>
   <div>
     <h1>HOLA MUNDO!</h1>
-    <h2>Esta es mi primera App de Vue.</h2>
+    <h2>Su nombre es {{ nombre }}</h2>
+    <h2>Su número es {{ numero }}</h2>
+    <img src="./../assets/images/collatz.png" />
   </div>
 </template>
 
@@ -11,6 +13,16 @@
 //CON UN name
 export default {
   name: "HolaMundo",
+  data() {
+    //AQUI DEBEMOS DECLARAR LAS VARIABLES PARA EL DIBUJO
+    //LAS VARIABLES SON DECLARADAS CON FORMATO JSON DENTRO DE UN return
+    return {
+      nombre: "Alumno",
+      numero: 14,
+      miArray: [],
+      objeto: {},
+    };
+  },
 };
 </script>
 
@@ -18,4 +30,5 @@ export default {
 h1 {
   color: "blue";
 }
+@import "./../assets/css/estilos.css";
 </style>

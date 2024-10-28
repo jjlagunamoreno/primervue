@@ -1,20 +1,35 @@
 <template>
   <div>
-    <HolaMundo />
+    <!-- <HolaMundo />
     <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+    <!-- <HomeComponent />
+    <MusicComponent />
+    <CineComponent /> -->
+    <MenuComponent />
+    <h1 style="color: blue">TITULO ESTÁTICO</h1>
+    <hr />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-import HolaMundo from "./components/HolaMundo.vue";
+import MenuComponent from "./components/MenuComponent.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
+// import HolaMundo from "./components/HolaMundo.vue";
+// import HomeComponent from "./components/HomeComponent.vue";
+// import MusicComponent from "./components/MusicComponent.vue";
+// import CineComponent from "./components/CineComponent.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
-    HolaMundo,
+    MenuComponent,
+    // HelloWorld,
+    // HolaMundo,
+    // HomeComponent,
+    // MusicComponent,
+    // CineComponent,
   },
 };
 </script>
